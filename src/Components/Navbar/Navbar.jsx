@@ -21,24 +21,26 @@ const Navbar = () => {
                 </div>
                 <ul
                     tabIndex={0}
-                    className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow gap-2">
                     <li><NavLink to={"/"}>Home</NavLink></li>
-                    <li><NavLink to={"/about"}>About</NavLink></li>
-                    <li><NavLink to={"/contact"}>Contact</NavLink></li>
+                    <li><NavLink to={"/statics"}>Statics</NavLink></li>
+                    <li><NavLink to={"/applied"}>Applied Job</NavLink></li>
+                    <li><NavLink to={"/blog"}>Blog</NavLink></li>
                     
                 </ul>
                 </div>
                 <a className="btn btn-ghost text-xl">Career_Hub</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 gap-2">
                     <li><NavLink to={"/"}>Home</NavLink></li>
-                    <li><NavLink to={"/about"}>About</NavLink></li>
-                    <li><NavLink to={"/contact"}>Contact</NavLink></li>
+                    <li><NavLink to={"/statics"}>Statics</NavLink></li>
+                    <li><NavLink to={"/applied"}>Applied Job</NavLink></li>
+                    <li><NavLink to={"/blog"}>Blog</NavLink></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className="btn">Start Apply</a>
             </div>
         </div>
     );
